@@ -71,15 +71,14 @@ ln -s /path/to/tj4d/dataset/ ./data/tj4d
 2. You can download the hybrid radar points from [Google](https://drive.google.com/drive/folders/1zSbldzARH41y5O5aBYeg7BOc_uiAHXhD?usp=sharing) or [Baidu](https://pan.baidu.com/s/1BY6GWWFu9dak5AMzthfA3g?pwd=hti9) and unzip them to the dataset folder.
 
 3. (Optional) Or you can choose to generate hybrid radar points by yourself following [here](hybrid_pts/README.md).
-4. Generate the pkl files of VoD and TJ4DRadset.
+4. Generate the pkl files of VoD and TJ4DRadset by replacing `dataset_name` to `vod_dataset` and `tj4d_dataset` respectively.
 ```
-python pcdet.datasets.kitti.vod_dataset
-python pcdet.datasets.kitti.tj4d_dataset
+python pcdet.datasets.kitti.dataset_name
 ```
 5. Folder structure:
 ```
 data
-├── vod_radar_5frames
+├── dataset_name
 │   ├── ImageSets
 │   ├── kitti_infos_test.pkl
 │   ├── kitti_infos_train.pkl
@@ -93,14 +92,6 @@ data
 |   |   ├── image_2
 |   |   ├── mask_maskformer_with_label_k_1_gauss_k_4_uniform      
 |   |   └── label_2                                        
-├── tj4d
-│   ├── gt_database
-│   ├── ImageSets
-│   ├── kitti_infos_test.pkl
-│   ├── kitti_infos_train.pkl
-│   ├── kitti_infos_trainval.pkl
-│   ├── kitti_infos_val.pkl
-│   ├── testing
 ```
 
 ## Training and Evaluating
