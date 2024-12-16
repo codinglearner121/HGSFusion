@@ -100,7 +100,7 @@ data
 │   ├── kitti_infos_train.pkl
 │   ├── kitti_infos_trainval.pkl
 │   ├── kitti_infos_val.pkl
-│   ├── testing -> /media/yellowstone/databig/data/TJ4DRadSet/TJ4DRadSet_4DRadar/
+│   ├── testing
 ```
 
 ## Training and Evaluating
