@@ -5,6 +5,7 @@
 </div>
 <div align="center">   
   
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/hgsfusion-radar-camera-fusion-with-hybrid/3d-object-detection-roi-on-view-of-delft-val)](https://paperswithcode.com/sota/3d-object-detection-roi-on-view-of-delft-val?p=hgsfusion-radar-camera-fusion-with-hybrid)
 [![Static Badge](https://img.shields.io/badge/arXiv-PDF-green?style=flat&logo=arXiv&logoColor=green)](https://arxiv.org/abs/2412.11489) 
 [![License: MIT](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 </div>
