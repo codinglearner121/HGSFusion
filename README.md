@@ -41,8 +41,8 @@ We offer the model on VoD and TJ4DRadset.
 
 | Datset | Config | Weight | 
 | -- | -- | -- |
-| VoD | [hgsfusion_vod.yaml](tools/cfgs/hgsfusion/hgsfusion_vod.yaml) | [Google](https://drive.google.com/drive/folders/1zSbldzARH41y5O5aBYeg7BOc_uiAHXhD?usp=sharing) [Baidu](https://pan.baidu.com/s/1BY6GWWFu9dak5AMzthfA3g?pwd=hti9) |
-| TJ4D | [hgsfusion_tj4d.yaml](tools/cfgs/hgsfusion/hgsfusion_tj4d.yaml) | [Google](https://drive.google.com/drive/folders/1zSbldzARH41y5O5aBYeg7BOc_uiAHXhD?usp=sharing) [Baidu](https://pan.baidu.com/s/1BY6GWWFu9dak5AMzthfA3g?pwd=hti9) |
+| VoD | [hgsfusion_vod.yaml](tools/cfgs/hgsfusion/hgsfusion_vod.yaml) | [Google](https://drive.google.com/drive/folders/1zSbldzARH41y5O5aBYeg7BOc_uiAHXhD?usp=sharing) [Baidu](https://pan.baidu.com/s/1_Ngbc-uobUiNlmF2OW1Vxw?pwd=2tdi) |
+| TJ4D | [hgsfusion_tj4d.yaml](tools/cfgs/hgsfusion/hgsfusion_tj4d.yaml) | [Google](https://drive.google.com/drive/folders/1zSbldzARH41y5O5aBYeg7BOc_uiAHXhD?usp=sharing) [Baidu](https://pan.baidu.com/s/1_Ngbc-uobUiNlmF2OW1Vxw?pwd=2tdi) |
 
 - The image backbone is pretrained on the COCO dataset, you can download from [here](https://download.pytorch.org/models/deeplabv3_resnet101_coco-586e9e4e.pth) and place the weight to `checkpoints/deeplabv3_resnet101_coco-586e9e4e.pt`
 
@@ -80,7 +80,7 @@ mkdir data
 ln -s /path/to/vod/dataset/ ./data/vod_radar_5frames
 ln -s /path/to/tj4d/dataset/ ./data/tj4d
 ```
-2. You can download the hybrid radar points from [Google](https://drive.google.com/drive/folders/1zSbldzARH41y5O5aBYeg7BOc_uiAHXhD?usp=sharing) or [Baidu](https://pan.baidu.com/s/1BY6GWWFu9dak5AMzthfA3g?pwd=hti9) and unzip them to the dataset folder.
+2. You can download the hybrid radar points from [Google](https://drive.google.com/drive/folders/1zSbldzARH41y5O5aBYeg7BOc_uiAHXhD?usp=sharing) or [Baidu](https://pan.baidu.com/s/1_Ngbc-uobUiNlmF2OW1Vxw?pwd=2tdi) and unzip them to the dataset folder.
 
 3. (Optional) Or you can choose to generate hybrid radar points by yourself following [here](hybrid_pts/README.md).
 4. Generate the pkl files of VoD and TJ4DRadset by replacing `dataset_name` to `vod_dataset` and `tj4d_dataset` respectively.
